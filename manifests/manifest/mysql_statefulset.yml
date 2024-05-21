@@ -50,7 +50,7 @@ kind: StatefulSet
 metadata:
   name: mysql
 spec:
-  replicas: 2
+  replicas: 1
   serviceName: mysql-headless
   selector:
     matchLabels:
